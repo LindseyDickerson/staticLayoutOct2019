@@ -1,25 +1,65 @@
+font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
 
-img {
+.viewOne {
+    background-image: url(assets/huluv1bg.jpg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
     background-attachment: fixed;
     background-repeat: no-repeat;
     z-index: 0;
+    position: fixed;
 }
 
-.viewOne {
-    z-index: 1;
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
 }
-
 
 .navbar {
+    height: 10px;
+    z-index: 1;
+    background: transparent;
+    display: block;
+    padding: 30px;
+    border: 1px solid black;
+    margin: 30px;
+}
 
+.navbarItems {
+    list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  text-decoration-line: none;
+ 
+}
+
+/* #li1 {
+    height: 10px;
+    width: 15px;
+    display: block;
+    display: inline;
+    float: left;
+} */
+
+#li2 {
+    display: inline;
+    padding: 10px;
+    
+}
+
+#li3 {
+    display: inline;
+    padding: 10px;
 }
 
 img {
@@ -28,4 +68,77 @@ img {
     background-attachment: fixed;
     background-repeat: no-repeat;
     z-index: 0;
+}
+
+.splash {
+    border: 1px solid black;
+    margin: 30px;
+}
+
+#onePlace {
+    font-family: 'Roboto';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    top: 35px;
+    padding: 20px;
+}
+
+#watchThousands {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+
+#fiveNinetyNine {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+#addOns {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.startTrial {
+    
+    border: 2px black solid;
+    width: 230px;
+    height: 50px;
+    font: 16px black;
+    align-content: center;
+    background-color: white;
+    border-radius: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+
+#trialText {
+    border: 1px solid red;
+    font-family: 'Roboto', sans-serif !important;
+    font: 14px black;
+    margin: auto;
+    width: 180px;
+    padding: 10px;
+}
+
+#stipulations {
+    border: 1px solid orangered;
+    font-family: 'Roboto', sans-serif !important;
+    font: 10px whitesmoke;
+    margin: auto;
+    top: 10px;
+    width: 280px;
+    height: 50px;
+
 }
